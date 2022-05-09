@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <script src = "index.js"></script>
-    <style ref = "stylesheet" src="style.css"></style>
+    <script src="index.js"></script>
+    <style ref="stylesheet" src="style.css"></style>
   </head>
   <body>
     <div id="collection">
@@ -12,15 +12,20 @@
     </div>
 
     <!-- film details -->
-    <div id = "film-details"></div>
-    <div id = "film-review">
-        <form id = "review-form">
-            <label for = "rating"> Rating: </label>
-            <input type = "number" id = "rating">
-            <label for = "review"> Your Review: </label>
-            <input type = "text" id = "review">
-            <input type = "submit" value = "Submit">
-        </form>
+    <div id="film-details"></div>
+
+    <div id="film-review">
+      <div id="user-review">
+        <h1>Reviews:</h1>
+        <h3></h3>
+      </div>
+      <form id="review-form">
+        <label for="rating"> Rating: </label>
+        <input type="number" id="rating" />
+        <label for="review"> Your Review: </label>
+        <input type="text" id="review" />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
