@@ -1,11 +1,11 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    font-size: 25px;
-    font-family: "papyrus";
-    margin-top: 20px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 25px;
+  font-family: "papyrus";
+  margin-top: 20px;
 }
 
 body {
@@ -15,20 +15,20 @@ body {
 }
 
 h3 {
-    list-style-type: none;
-    margin: 5px;
-    padding: 4px;
+  list-style-type: none;
+  margin: 5px;
+  padding: 4px;
 }
 ul {
-    list-style-type: none;
-    margin: 5px;
-    padding: 4px;
-    font-size: 17px
-  }
+  list-style-type: none;
+  margin: 5px;
+  padding: 4px;
+  font-size: 17px;
+}
 
 #collection-header {
-    font-family: "copperplate";
-    font-size: 25px
+  font-family: "copperplate";
+  font-size: 25px;
 }
 
 #collection {
@@ -36,7 +36,7 @@ ul {
   width: 20%;
   float: left;
   border-radius: 25px;
-  margin-right: 27px
+  margin-right: 27px;
 }
 #collection ul:hover {
   color: white;
@@ -46,7 +46,7 @@ ul {
   font-family: Trattatello;
   text-align: center;
   border-radius: 60%;
-  background: #B28FD3 ;
+  background: #b28fd3;
 }
 #film-details {
   margin-top: 40px;
@@ -60,18 +60,19 @@ img {
   border-radius: 5px;
 }
 
-#posted-review {
-  float: left;
-}
-
 #film-review {
   text-align: center;
   margin-bottom: 10px;
 }
-
+#posted-reviews {
+  background-color: white;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
 #submit {
   border-radius: 15px;
   border-width: 0.25px;
   border-style: solid;
+  background-color: #b28fd3;
 }
-

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((resp) => resp.json())
     .then((filmsArray) => {
       renderSide(filmsArray);
-      renderDetails(filmsArray[10])
+      renderDetails(filmsArray[10]);
     });
 
   const renderSide = (filmsArray) => filmsArray.forEach(titleLoop);
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const ratingList = document.createElement("ul");
-    ratingList.textContent = e.target.rating.value;
+    ratingList.textContent = `Rating: ${e.target.rating.value}`;
     const reviewList = document.createElement("ul");
     reviewList.textContent = e.target.review.value;
 
