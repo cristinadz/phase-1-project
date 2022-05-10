@@ -80,3 +80,12 @@ img {
   border-style: solid;
   background-color: #b28fd3;
 }
+
+#review-form {
+    margin-left: 250px
+}
+
+#user-review {
+    margin-left: 250px;
+    margin-right: 50px
+}
