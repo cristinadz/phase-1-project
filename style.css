@@ -36,7 +36,11 @@ ul {
   width: 20%;
   float: left;
   border-radius: 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #8648A0;
   margin-right: 27px;
+  
 }
 #collection ul:hover {
   color: white;
