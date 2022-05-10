@@ -1,0 +1,33 @@
+body {
+    background-color : cornflowerblue;
+}
+
+#collection-header {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#collection {
+    text-align: center;
+    width: 25%;
+    float:left
+}
+
+#film-details {
+    text-align: center;
+    width: 75%;
+    float: left
+}
+
+img {
+    height: 550px
+}
+
+#film-review {
+    text-align:center
+}
