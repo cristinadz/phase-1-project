@@ -1,5 +1,7 @@
 body {
   background-color: cornflowerblue;
+  font-family: "roboto", sans-serif;
+  font-weight: lighter;
 }
 
 #collection-header {
@@ -21,17 +23,20 @@ body {
   color: white;
   cursor: default;
 }
+#collection ul {
+  border-radius: 20%;
+  margin-top: 5px;
+  background: #737373;
+}
 #film-details {
   text-align: center;
   width: 75%;
   float: left;
 }
-/* #film-details p {
-  width: 700px;
-  text-align: center;
-} */
+
 img {
   height: 550px;
+  border-radius: 5px;
 }
 
 #posted-review {
@@ -41,4 +46,10 @@ img {
 #film-review {
   text-align: center;
   margin-bottom: 10px;
+}
+
+#submit {
+  border-radius: 15px;
+  border-width: 0.25px;
+  border-style: solid;
 }
