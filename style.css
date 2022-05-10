@@ -28,6 +28,11 @@ img {
     height: 550px
 }
 
+#posted-review {
+    float: left
+}
+
 #film-review {
-    text-align:center
+    text-align:center;
+    margin-bottom: 10px
 }

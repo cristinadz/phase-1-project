@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((resp) => resp.json())
     .then((filmsArray) => {
       renderSide(filmsArray);
+      renderDetails(filmsArray[10])
     });
 
   const renderSide = (filmsArray) => filmsArray.forEach(titleLoop);
