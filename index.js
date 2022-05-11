@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((resp) => resp.json())
     .then((filmsArray) => {
       renderSide(filmsArray);
-      renderDetails(filmsArray[10]);
+      renderDetails(filmsArray[10])
     });
 
   const renderSide = (filmsArray) => filmsArray.forEach(titleLoop);
@@ -49,14 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#user-review h3").textContent = "";
   };
 
-  form.addEventListener("submit", (e) => {
+    form.addEventListener("submit", (e) => {
     e.preventDefault();
-    const ratingList = document.createElement("ul");
+    const ratingList = document.createElement("p");
     ratingList.textContent = `Rating: ${e.target.rating.value}`;
-    const reviewList = document.createElement("ul");
-    reviewList.textContent = e.target.review.value;
-
-    document.querySelector("#user-review h3").append(ratingList, reviewList);
+    const reviewList = document.createElement("p");
+    reviewList.textContent = `Review: ${e.target.review.value}`;
+    const wholeList = document.createElement('li')
+    const wholeReview = wholeList.className 
+    wholeList.append(ratingList,reviewList)
+    document.querySelector("#user-review h3").append(wholeList);
     e.target.reset();
   });
 });

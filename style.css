@@ -69,11 +69,17 @@ img {
   margin-bottom: 10px;
 }
 #posted-reviews {
-  background-color: white;
+
   display: flex;
   padding: 0;
   flex-direction: column;
 }
+
+#posted-reviews li{
+    margin-top: 7px;
+    margin-bottom: 13px
+}
+
 #submit {
   border-radius: 15px;
   border-width: 0.25px;
@@ -89,7 +95,20 @@ img {
 
 #user-review {
     margin-left: 250px;
-    margin-right: 50px
+    margin-right: 50px;
+}
+
+#posted-reviews{
+    text-align: left;
+    font-size: 16px;
+    font-family: bookman;
+    margin-right: 100px;
+    margin-left: 250px;
+}
+
+#posted-reviews p{
+    margin-top: 5px;
+    margin-bottom:5px ;
 }
 
 input[type=text] {
@@ -114,12 +133,12 @@ input[type=number] {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 0px;
-    margin-top: 0px
-
+    margin-top: 0px;
+    font-family: rockwell
 }
 
 
-p:nth-of-type(1n){
+#film-details p:nth-of-type(1n){
     margin-bottom: 0px;
     margin-top: 4px;
     margin-right: 330px;
@@ -128,11 +147,12 @@ p:nth-of-type(1n){
     font-family: rockwell;
 }
 
-p:nth-of-type(3n){
+#film-details p:nth-of-type(3n){
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 90px;
+    margin-left: 90px;
     font-family: rockwell;
+    font-style: normal
 }
 
