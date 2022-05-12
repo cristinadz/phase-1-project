@@ -23,10 +23,13 @@
         <h3 id="posted-reviews"></h3>
       </div>
       <form id="review-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="" />
         <label for="rating"> Your Rating:</label>
-        <input type="number" id="rating" placeholder="  /100"/><br><br>
+        <input type="number" id="rating" placeholder="  /100" /><br /><br />
         <label for="review"> Your Review:</label>
-        <input type="text" id="review" /><br><br>
+        <!-- <input type="text" id="review" /><br /><br /> -->
+        <textarea id="review" rows="10" cols="30"></textarea>
         <input type="submit" value="Submit" id="submit" />
       </form>
     </div>

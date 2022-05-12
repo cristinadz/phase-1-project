@@ -38,9 +38,8 @@ ul {
   border-radius: 25px;
   border-style: solid;
   border-width: 3px;
-  border-color: #8648A0;
+  border-color: #8648a0;
   margin-right: 27px;
-  
 }
 #collection ul:hover {
   color: white;
@@ -69,15 +68,14 @@ img {
   margin-bottom: 10px;
 }
 #posted-reviews {
-
   display: flex;
   padding: 0;
   flex-direction: column;
 }
 
-#posted-reviews li{
-    margin-top: 7px;
-    margin-bottom: 13px
+#posted-reviews li {
+  margin-top: 7px;
+  margin-bottom: 13px;
 }
 
 #submit {
@@ -88,71 +86,71 @@ img {
 }
 
 #review-form {
-    margin-left: 250px;
-    text-align: center;
-    margin-right: 50px
+  margin-left: 250px;
+  text-align: center;
+  margin-right: 50px;
 }
 
 #user-review {
-    margin-left: 250px;
-    margin-right: 50px;
+  margin-left: 250px;
+  margin-right: 50px;
 }
 
-#posted-reviews{
-    text-align: left;
-    font-size: 16px;
-    font-family: bookman;
-    margin-right: 100px;
-    margin-left: 250px;
+#posted-reviews {
+  text-align: left;
+  font-size: 16px;
+  font-family: bookman;
+  margin-right: 100px;
+  margin-left: 250px;
 }
 
-#posted-reviews p{
-    margin-top: 5px;
-    margin-bottom:5px ;
+#posted-reviews p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-input[type=text] {
-    width: 600px;
-    height: 75px
-}
-
-input[type=number] {
-    width: 75px;
-    height: 22px
-}
-
-#film-details h1{
-    font-size: 50px;
-    font-family: luminari;
-    margin-bottom: 0px;
-    margin-top: 20px
-}
-
-#film-details h3{
-    font-size: 18px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-family: rockwell
+textarea {
+  width: 500px;
+  height: 75px;
+  font-family: bookman;
 }
 
 
-#film-details p:nth-of-type(1n){
-    margin-bottom: 0px;
-    margin-top: 4px;
-    margin-right: 330px;
-    margin-left: 330px;
-    font-style: italic;
-    font-family: rockwell;
+input[type="number"] {
+  width: 75px;
+  height: 22px;
 }
 
-#film-details p:nth-of-type(3n){
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-right: 90px;
-    margin-left: 90px;
-    font-family: rockwell;
-    font-style: normal
+#film-details h1 {
+  font-size: 50px;
+  font-family: luminari;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
+#film-details h3 {
+  font-size: 18px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: rockwell;
+}
+
+#film-details p:nth-of-type(1n) {
+  margin-bottom: 0px;
+  margin-top: 4px;
+  margin-right: 330px;
+  margin-left: 330px;
+  font-style: italic;
+  font-family: rockwell;
+}
+
+#film-details p:nth-of-type(3n) {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 90px;
+  margin-left: 90px;
+  font-family: rockwell;
+  font-style: normal;
+}
